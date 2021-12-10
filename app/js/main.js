@@ -16,6 +16,7 @@ $(function () {
       galleryItemContent[e.target.dataset.currentItem].classList.remove('disable');
     }
   }
+
   function galleryItemContentDisable(e) {
     if (e.target.classList.contains('gallery__item-link')) {
       galleryItemContent[e.target.dataset.currentItem].classList.add('disable');
@@ -24,6 +25,6 @@ $(function () {
   }
 
 
- 
+
 
 });
