@@ -2,8 +2,8 @@ $(function () {
 
   const galleryInner = document.querySelector('.gallery__inner');
   const galleryItemContent = document.querySelectorAll('.gallery__item-content');
-  const galleryItemLink = document.querySelectorAll('.gallery__item-link')
-  const galleryItemBtn = document.querySelectorAll('.gallery__item-btn')
+  const galleryItemLink = document.querySelectorAll('.gallery__item-link');
+  const galleryItemBtn = document.querySelectorAll('.gallery__item-btn');
 
 
   galleryInner.addEventListener('mouseover', galleryItemContentActiv);
